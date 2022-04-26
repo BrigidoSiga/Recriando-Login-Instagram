@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+body {
+  width: 100%;
+  /* min-height: vh; */
+  background-color: #fafafa;
+  margin-top: 90px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.side-left {
+  margin: 10px 30px;
+}
+
+.side-right {
+  margin: 10px 30px;
+}
+
+.box-white {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 80px;
+  border: 1px solid #eaeaea;
+}
+
+.img-user {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+#img-circle {
+  max-width: 90px;
+  border-radius: 50%;
+}
+
+.change {
+  margin-top: 12px;
+}
+
+.change span {
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.change div {
+  margin: auto;
+}
+
+button {
+  font-weight: 700;
+  font-size: 13px;
+  border: none;
+}
+
+.btn-blue {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn-white {
+  color: #0095f6;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.download {
+  margin-top: 21px;
+}
+
+.download span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.download div {
+  display: flex;
+  justify-content: center;
+}
+
+.download div img {
+  padding: 0 5px;
+}
+
+.download img {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.img-logos {
+}
+
+footer .footer-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer .footer-menu li {
+  padding: 3px 10px;
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer span {
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+.select {
+  background-color: #fafafa;
+  font-size: 12px;
+  border: none;
+}
+
+@media (max-width: 876px) {
+  .side-left {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .side-left {
+    display: none;
+  }
+
+  .box-white {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+  }
+
+  body {
+    margin-top: 0px;
+  }
+
+  #logo {
+    max-width: 190px;
+  }
+
+  button {
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+  }
+
+  .download {
+    margin-top: 60px;
+  }
+}
+
+/* border: 1px solid red; */
